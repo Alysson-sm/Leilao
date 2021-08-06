@@ -18,7 +18,7 @@ test('pegar maior lance aleatorio',
     }
 );
 
-test('pega o maior lance em ordem crescente',
+test('pegar o maior lance em ordem crescente',
     () => {
         leilao.propoe(new lance('José', 100));
         leilao.propoe(new lance('Maria', 200));
@@ -30,7 +30,7 @@ test('pega o maior lance em ordem crescente',
     }
 );
 
-test('pega o maior lance em ordem decrescente',
+test('pegar o maior lance em ordem decrescente',
 
     () => {
         leilao.propoe(new lance('José', 400));
