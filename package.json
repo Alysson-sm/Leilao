@@ -1,0 +1,22 @@
+{
+  "name": "leilao",
+  "version": "1.0.0",
+  "description": "mini projeto de leilao em javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alysson-sm/Leilao.git"
+  },
+  "author": "alysson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Alysson-sm/Leilao/issues"
+  },
+  "homepage": "https://github.com/Alysson-sm/Leilao#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
