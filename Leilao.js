@@ -27,16 +27,14 @@ module.exports = class Leilao {
         this.lances.forEach(
 
             (lance) => {
+                if (lance.getValor() > this.maiorLance.getValor()) {
+                    this.maiorLance = lance;    
+                }else{
+                    this.menorLance= lance;
+                }
                   
-                for (let index = 0; index < this.lances.length; index++) {
-                    if (this.lances[index] > this.maiorLance) {
-                        this.maiorLance = this.lances[index]
-                    }
-                    if (this.lances[index] < this.menorLance) {
-                        this.menorLance = this.lances[index]
-                    }
-                    
-                }          
+                
+                
             }
         );
     }
